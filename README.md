@@ -9,7 +9,7 @@ var userFirstName = "";
 var userLastName = ""; 
 var userBU = "";
 var userWorkPhone = "";
-var webUrl = _spPageContextInfo.webAbsoluteUrl + "/_api/SP.UserProfiles.PeopleManager/GetPropertiesFor(accountName=@v)?@v='" + "corp\\" + userID + "'"; 
+var webUrl = _spPageContextInfo.webAbsoluteUrl + "/_api/SP.UserProfiles.PeopleManager/GetPropertiesFor(accountName=@v)?@v='" + "domainName\\" + userID + "'"; 
 console.log(webUrl);
 
 NWF$.ajax  
