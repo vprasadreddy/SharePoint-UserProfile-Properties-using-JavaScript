@@ -15,7 +15,7 @@ NWF$.ajax
     ({  
         url:webUrl,  
         type: 'GET',    
-		async: false,  
+	async: false,  
         headers:    
 		{ 
 		"Accept": "application/json;odata=verbose"
