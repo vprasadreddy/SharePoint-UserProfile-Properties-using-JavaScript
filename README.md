@@ -74,7 +74,7 @@ function getUserProperties() {
 }
 ```
 
-## Below code is for Nintex Forms to get SharePoint UserProfile Properties using JavaScript
+> Below code is for Nintex Forms to get SharePoint UserProfile Properties using JavaScript
 ```javascript
 function getUserProperties() {
   //alert("Still working on it.") ;
